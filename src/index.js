@@ -1,7 +1,16 @@
-const elvenShieldRecipe = {
-    one: 1,
-    two: 2,
-    three: 3
+const equipments = {
+    one: "First Aid Kit",
+    two: "Multi-Tool",
+    three: "Steel Toe Boots"
+};
+
+const elvenSwordRecipe = {
+    ...equipments,
+    four: "knife",
+    five: "Hawk Axe",
+    six: "Flashlight",
+    seven: "Baseball Bat"
 }
 
-console.log(elvenShieldRecipe)
+console.log(equipments)
+console.log(elvenSwordRecipe)
