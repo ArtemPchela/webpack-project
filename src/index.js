@@ -1,3 +1,5 @@
+import "./styles/index.scss"
+
 const equipments = {
     one: "First Aid Kit",
     two: "Multi-Tool",
