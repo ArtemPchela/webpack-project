@@ -37,7 +37,7 @@ const Equipment = () => {
             <h2>Current tool:</h2>
             <button onClick={initial}>Initial package</button>
             <button onClick={additional}>Full package</button>
-            <button onClick={hide}>Full package</button>
+            <button onClick={hide}>Hide package</button>
 
             <ul>
                 {Object.keys(isEquipment).map((tool) => (
